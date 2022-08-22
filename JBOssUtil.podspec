@@ -12,22 +12,21 @@ Pod::Spec.new do |s|
   s.summary          = 'JBOssUtil.'
 
 
-  s.homepage         = 'https://github.com/echanz/JBOssUtil'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/jbangtech/JBOssUtil'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'echanz' => 'echan96@dingtalk.com' }
-  s.source           = { :git => 'https://github.com/echanz/JBOssUtil.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/jbangtech/JBOssUtil.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
+  s.static_framework = true
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 
-  s.source_files = 'JBOssUtil/Classes/**/*'
+  s.source_files = 'JBOssUtil/Classes/*.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'JBOssUtil/Classes/*.framework'
   
-  # s.resource_bundles = {
-  #   'JBOssUtil' => ['JBOssUtil/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 5.4.2'
+  s.dependency 'MBProgressHUD', '~> 1.2.0'
+  s.dependency 'AliyunOSSiOS', '~> 2.10.8'
+  
 end
