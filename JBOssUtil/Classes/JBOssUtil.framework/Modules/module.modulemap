@@ -1,0 +1,11 @@
+framework module JBOssUtil {
+  umbrella header "JBOssUtil.h"
+
+  export *
+  module * { export * }
+}
+
+module JBOssUtil.Swift {
+    header "JBOssUtil-Swift.h"
+    requires objc
+}
