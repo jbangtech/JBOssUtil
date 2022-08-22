@@ -1,0 +1,16 @@
+PODS:
+  - JBOssUtil (0.1.0)
+
+DEPENDENCIES:
+  - JBOssUtil (from `../`)
+
+EXTERNAL SOURCES:
+  JBOssUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JBOssUtil: f713a8ff494d3cadfd6d69c9a7862ac74b4f11fe
+
+PODFILE CHECKSUM: 61bb58b145fe86b1c4c57a136496d941167518b3
+
+COCOAPODS: 1.11.3
