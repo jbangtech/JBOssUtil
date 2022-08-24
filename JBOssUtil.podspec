@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.source_files = 'JBOssUtil/Classes/*.framework/Headers/*.{h}'
   s.vendored_frameworks = 'JBOssUtil/Classes/*.framework'
   
-  s.dependency 'Alamofire', '~> 5.4.2'
-  s.dependency 'MBProgressHUD', '~> 1.2.0'
-  s.dependency 'AliyunOSSiOS', '~> 2.10.8'
+  s.dependency 'Alamofire', '>= 5.4.2'
+  s.dependency 'MBProgressHUD', '>= 1.2.0'
+  s.dependency 'AliyunOSSiOS', '>= 2.10.8'
   
 end
