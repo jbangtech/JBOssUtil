@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JBOssUtil'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'JBOssUtil.'
 
   s.homepage         = 'https://github.com/jbangtech/JBOssUtil'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jbangtech/JBOssUtil.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-  s.swift_versions = ['5.1', '5.2', '5.3', '5.4', '5.5', '5.6']
+  s.swift_versions = ['5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7']
   s.static_framework = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
