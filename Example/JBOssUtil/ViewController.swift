@@ -40,7 +40,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
         picker.dismiss(animated: true)
-        JBOssUtil.shared.upload(image, folder: "user/image") { result in
+        JBOssUtil.shared.upload(image, folder: "user/image") { result, process, errorMsg  in
             print("图片URL：==> ", result)
         }
     }

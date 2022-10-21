@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JBOssUtil-Swift.h</key>
 		<data>
-		tnCeTE6noJ4bCeJbFyx2xNnVSVM=
+		KEBGZK7DA6bJMoLoh0/o2O4U3ng=
 		</data>
 		<key>Headers/JBOssUtil.h</key>
 		<data>
@@ -14,23 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iJnNPJCsV+y5R1f7olLtqSWEyoA=
+		5pFsk5zF+ATNsr8C5Q10nrXv+O8=
 		</data>
 		<key>Modules/JBOssUtil.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		apImCgLDJfHdyDtxGHTMv8Q3yy0=
+		EXgDAKSBg5V9Y7fTyEEfASk6zkQ=
+		</data>
+		<key>Modules/JBOssUtil.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
 		<key>Modules/JBOssUtil.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		n4iULPjebO3Y3ybY+Sn9OFpmY0E=
+		Kg4tmUOuPjnL00+SU7PL8RMt9O4=
 		</data>
 		<key>Modules/JBOssUtil.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		a0GqJFBOSKAXCTd9itlKSST8wKw=
+		38Mm/sQAZ5Or1mrRAZCAle7j7l4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		pjHA5jB1HR9hkzR0D3UE3kPVv/s=
+		oXFcPvZQLju/OqksobcpGWIzu7I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tnCeTE6noJ4bCeJbFyx2xNnVSVM=
+			KEBGZK7DA6bJMoLoh0/o2O4U3ng=
 			</data>
 			<key>hash2</key>
 			<data>
-			GO4KExd6Thbq4vQpcpiSlmPEqgLXKVtWW+QnCfCJBi4=
+			VQ9hV+6lnpFOLK759rqWoVK5R4zuJsHcw2rDE1uqO+s=
 			</data>
 		</dict>
 		<key>Headers/JBOssUtil.h</key>
@@ -61,44 +65,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			apImCgLDJfHdyDtxGHTMv8Q3yy0=
+			EXgDAKSBg5V9Y7fTyEEfASk6zkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Plzw1qVNK46lFAXbCwy/7hKZIymepRDyYDimghHbTF8=
+			47Zu662g36AuO2oWrTRAr9kj/8Y3yqzrrAiiINAL7Qc=
+			</data>
+		</dict>
+		<key>Modules/JBOssUtil.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
 		<key>Modules/JBOssUtil.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n4iULPjebO3Y3ybY+Sn9OFpmY0E=
+			Kg4tmUOuPjnL00+SU7PL8RMt9O4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ijUivRwe3mrhETPswGeE262HI87QfEu2h/LJGEKvBUg=
+			Ai3+umtHNW9odOJB2BOOF7ENCd7Vn7b8qU69K23fBAU=
 			</data>
 		</dict>
 		<key>Modules/JBOssUtil.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a0GqJFBOSKAXCTd9itlKSST8wKw=
+			38Mm/sQAZ5Or1mrRAZCAle7j7l4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xTBl436RuIT3+yjnBmoQ+oHGypcJXzTYTypjrm1G5D4=
+			lm3MVZAtBeIqSyK8xoSzoezCfCUUNF3AG8ILyBALED8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pjHA5jB1HR9hkzR0D3UE3kPVv/s=
+			oXFcPvZQLju/OqksobcpGWIzu7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Np4u13VMC5AVkzz1aaKxJtgnHbtwomMLo6HZLKe1PHc=
+			7TV0YlahgLI8aZ7ZgD+i/YwqRALcftG7Ik+KmBAPsAk=
 			</data>
 		</dict>
 	</dict>

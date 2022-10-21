@@ -6,6 +6,6 @@ framework module JBOssUtil {
 }
 
 module JBOssUtil.Swift {
-    header "JBOssUtil-Swift.h"
-    requires objc
+  header "JBOssUtil-Swift.h"
+  requires objc
 }

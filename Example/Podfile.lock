@@ -1,10 +1,10 @@
 PODS:
   - Alamofire (5.4.4)
   - AliyunOSSiOS (2.10.15)
-  - JBOssUtil (0.1.0):
-    - Alamofire (~> 5.4.2)
-    - AliyunOSSiOS (~> 2.10.8)
-    - MBProgressHUD (~> 1.2.0)
+  - JBOssUtil (0.1.2):
+    - Alamofire (>= 5.4.2)
+    - AliyunOSSiOS (>= 2.10.8)
+    - MBProgressHUD (>= 1.2.0)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   AliyunOSSiOS: 5d7c50ce7b39b2b0b10f603a5971cccb0f25eee2
-  JBOssUtil: fc9bedaa6640e06fe96442ed914a23b39ace05cc
+  JBOssUtil: 1db634f097ffaf56e7c8ed50878649040c37d6ef
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 61bb58b145fe86b1c4c57a136496d941167518b3
